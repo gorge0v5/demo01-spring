@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/proyectolaravel?serverTimezone=UTC
+    hikari:
+      #dataSourceClassName: com.mysql.cj.jdbc.MysqlDataSource
+      #maximunPoolSize: 15
+      #initializationFailTimeOut: 5000
+      #name: data-source-mysql
+      username: root
+      password: 123456
